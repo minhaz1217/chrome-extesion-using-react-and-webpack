@@ -2,5 +2,8 @@
     "name": "Basic Chrome Extension",
     "description": "A basic chrome extension",
     "version": "1.0",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "action": {
+        "default_popup" : "popup.html"
+    }
   }
